@@ -1,0 +1,17 @@
+{
+    "name": "my-web-project",
+    "version": "1.0.0",
+    "description": "A simple web project with testing and build setup",
+    "scripts": {
+      "test": "jest",                      
+      "build": "webpack --config webpack.config.js"  
+    },
+    "dependencies": {
+      "webpack": "^5.0.0",
+      "jest": "^26.0.0"
+    },
+    "devDependencies": {
+      "webpack-cli": "^4.0.0"
+    }
+  }
+  
