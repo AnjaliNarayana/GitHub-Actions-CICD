@@ -1,10 +1,16 @@
 {
     "name": "my-web-project",
     "version": "1.0.0",
-    "description": "A simple web project with testing and build setup",
+    "description": "A simple CI pipeline with testing and build setup",
     "scripts": {
       "test": "jest",                      
       "build": "webpack --config webpack.config.js"  
+    },
+    "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ]
     },
     "dependencies": {
       "webpack": "^5.0.0",
